@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker de Cristales</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Clicker de Cristales</h1>
+
+    <!-- Aquí va tu juego existente -->
+    <div id="clicker-game">
+      <!-- Tu HTML original del clicker se mantiene intacto -->
+    </div>
+
+    <!-- Botón de descarga del APK -->
+    <div id="apk-download" style="margin-top:20px; text-align:center;">
+      <a href="ClickerCristales.apk" download
+         style="
+           display:inline-block;
+           padding: 15px 30px;
+           background-color:#1a73e8;
+           color:white;
+           font-size:18px;
+           font-weight:bold;
+           border-radius:10px;
+           text-decoration:none;
+           box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+           transition: transform 0.2s;
+         "
+         onmouseover="this.style.transform='scale(1.05)'"
+         onmouseout="this.style.transform='scale(1)'">
+         Descargar APK
+      </a>
+      <p style="margin-top:10px; color:#ccc;">Instala la app en tu Android para jugar offline</p>
+    </div>
+  </div>
+
+  <!-- Scripts del juego -->
+  <script src="main.js"></script>
+</body>
+</html>

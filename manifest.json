@@ -1,0 +1,16 @@
+{
+  "name": "CristalClicker",
+  "short_name": "Clicker",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0f2d",
+  "theme_color": "#3a5fff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
